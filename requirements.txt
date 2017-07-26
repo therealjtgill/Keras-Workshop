@@ -1,4 +1,4 @@
-ppnope==0.1.0
+appnope==0.1.0
 backports-abc==0.5
 backports.shutil-get-terminal-size==1.0.0
 backports.weakref==1.0rc1
