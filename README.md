@@ -15,6 +15,45 @@ The focus of this workshop is to get you acquainted with Keras, so all of the Ma
 
 	```
 	mkproject tensorflow
+	workon tensorflow
 	pip install -r requirements.txt
 	echo "hooray!"
 	```
+	
+## Demo
+
+```
+brew install python3
+pip3 install matplotlib
+
+mkproject -p python3 tensorflow
+workon tensorflow
+git clone https://github.com/therealjtgill/Keras-Workshop.git
+cd Keras-Workshop/
+
+# Install pip requirments
+## via requirements
+pip install -r requirements.txt
+
+## via pip manually
+pip install tensorflow
+pip install numpy
+pip install scipy
+pip install keras
+pip install matplotlib
+pip install scikit-learn
+pip install jupyter
+
+# run notebook
+jupyter notebook
+
+# If you get the Mac error (missing backend blah blah blah), create this file:
+$ cat ~/.matplotlib/matplotlibrc
+backend: TkAgg
+$
+
+```
+
+Mac Specifics:
+
+* <https://stackoverflow.com/questions/21784641/installation-issue-with-matplotlib-python>
